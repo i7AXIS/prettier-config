@@ -34,8 +34,7 @@
     }
   ],
   "plugins": [
-    "@ianvs/prettier-plugin-sort-imports",
-    "prettier-plugin-multiline-arrays"
+    "@ianvs/prettier-plugin-sort-imports"
   ],
   "printWidth": 80,
   "quoteProps": "as-needed",

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "importOrder": [
+    "^node:(.*)$",
+    "^(react|next(.*))$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/(.*)$",
+    "^~/(.*)$",
+    "^[./]",
+    "<TYPES>",
+    "^(.*)(sass|css|scss)$"
+  ],
+  "importOrderCaseInsensitive": true,
+  "importOrderParserPlugins": [
+    "classProperties",
+    "decorators-legacy",
+    "jsx",
+    "typescript"
+  ],
+  "importOrderSortSpecifiers": true,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "multilineArraysWrapThreshold": 2,
+  "overrides": [
+    {
+      "files": ".*rc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ],
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-multiline-arrays"
+  ],
+  "printWidth": 80,
+  "quoteProps": "as-needed",
+  "semi": false,
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false
+}
